@@ -36,3 +36,13 @@ button
 {
     font-size: 40px;
 }
+
+#movieList div
+{
+    background: rgb(255, 255, 255);
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+}
