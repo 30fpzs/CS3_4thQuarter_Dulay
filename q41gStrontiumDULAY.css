@@ -8,18 +8,20 @@ body
   font-size: 50px;
 }
 
-input, select, button
+input, select
 {
-    width: 400px;
-    padding: 12px;
-    font-size: 18px;
+    width: 300px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
     border-radius: 8px;
-    border: 2px solid #ccc;
+    border: 5px solid #ccc;
     margin-top: 5px;
     margin-bottom: 15px;
 }
 
-input:focus, select:focus, button
+input:focus, select:focus
 {
     border-color: orange;
     outline: none;
@@ -34,7 +36,17 @@ input:focus, select:focus, button
 
 button
 {
-    font-size: 40px;
+    width: 300px;
+    padding: 12px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-color: orange;
+    outline: none;
 }
 
 #movieList div
