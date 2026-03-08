@@ -1,0 +1,38 @@
+body
+{
+  margin: 0;
+  font-family: calibri;
+  color: rgb(0, 0, 0);
+  background-color: rgb(93, 233, 172);
+  text-align: center;
+  font-size: 50px;
+}
+
+input, select, button
+{
+    width: 400px;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+input:focus, select:focus, button
+{
+    border-color: orange;
+    outline: none;
+}
+
+.star
+{
+    font-size: 80px;
+    cursor: pointer;
+    color: gray;
+}
+
+button
+{
+    font-size: 40px;
+}

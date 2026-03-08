@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quarter 4 First Graded_Dulay</title>
+    <link rel="stylesheet" href="q41gStrontiumDULAY.css">
+</head>
+<body>
+
+    <h2>Add a Movie and Rate it!</h2>
+
+    Title: 
+    <br><input type="text" id="title" name="title"><br><br>
+
+    Year:
+    <br><input type="text" id="year" name="year"><br><br>
+
+    Genre:
+    <br>
+    <select id = "genre">
+        <option value="Action">Action! 💥</option>
+        <option value="Comedy">Comedy! 🤣</option>
+        <option value="Drama">Drama! 🎭</option>
+        <option value="Horror">Horror! 👻</option>
+        <option value="Sci-Fi">Sci-Fi! 🚀</option>
+    </select>
+
+    <br><br>
+
+    Rating:
+    <br>
+    <span class="star" onclick = "submitRating(1)">★</span>
+    <span class="star" onclick = "submitRating(2)">★</span>
+    <span class="star" onclick = "submitRating(3)">★</span>
+    <span class="star" onclick = "submitRating(4)">★</span>
+    <span class="star" onclick = "submitRating(5)">★</span>
+
+    <br><br>
+
+    <button onclick="addMovie()">Add Movie</button>
+
+    <h2>Movie List:</h2>
+    <div id="movieList"></div>
+
+<script src="q41gStrontiumDULAY.js"></script>
+</body>
+</html>
