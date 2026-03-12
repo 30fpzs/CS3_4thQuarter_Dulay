@@ -32,6 +32,19 @@ input:focus, select:focus
     font-size: 80px;
     cursor: pointer;
     color: gray;
+    position: relative;
+    display: inline-block;
+}
+
+.star::before {
+    content: "★";
+    color: yellow;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: var(--half, 0%);
+    overflow: hidden;
+    z-index: 1;
 }
 
 button
