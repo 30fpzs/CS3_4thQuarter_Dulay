@@ -1,33 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="author" content="<your names>" />
-  <meta name="revised" content="<date today>" />
+  <meta name="author" content="Mateo Uno F. Dulay"/> <!--PUTTING MYSELF AS THE ONLY AUTHOR CUZ IM CRAMMING AND THE INTERNET WENT DOWN :C-->
+  <meta name="revised" content="March 31, 2026" />
+  <title>9StrontiumDulayseatwork2</title>
   <style>
+    body{
+      height: 1500px;
+    }
     body { font-family: Arial, sans-serif; }
     .header, .footer {
       background: lightblue;
       padding: 10px;
     }
     .footer {
-       opacity: 0.5;
+      opacity: 0.5;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
     }
     .sidebar {
       background: lightgreen;
       width: 150px;
       height: 200px;
+      position: relative;
+      top: 20px;
+      left: 20px;
     }
-    .content {
+    /*.content {
       background: lightyellow;
       width: 300px;
       height: 200px;
-    }    
+      position: absolute;
+      top: 66px;
+      left: 200px;
+       z-index: 1;
+    } 
+       this is for the content css before the challenge questions*/
+    .content {
+    background: lightyellow;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 66px;
+    left: 200px;
+    z-index: 1;
+    }
+    /*.notice {
+    position: absolute;
+    top: 60px;
+    left: 400px;
+    background: orange;
+    padding: 10px;
+    z-index: 2;
+    } this is for the notice css before the challenge questions
+    */
+    .notice {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: orange;
+    padding: 10px;
+    z-index: 2;
+    }
   </style>
 </head>
 <body>
   <div class="header">Header</div>
   <div class="sidebar">Sidebar</div>
-  <div class="content">Main Content</div>
+  <div class="content">
+    Main Content
+    <div class="notice">Notice!</div>
+  </div>
   <div class="footer">Footer</div>
 </body>
 </html>
+
+<!--sorry sir for delaying it :C there was a problem and I could not complete it on time I sincerely apologize since it is fully my fault sir :C-->
